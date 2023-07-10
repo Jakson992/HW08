@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hw08"
+version = "0.1.0"
+description = ""
+authors = ["Yevheniy Petrenko <yevheniipetrenko92@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pymongo = "^4.4.0"
+mongoengine = "^0.27.0"
+faker = "^18.13.0"
+pika = "^1.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
